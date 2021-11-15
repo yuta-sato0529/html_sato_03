@@ -1,0 +1,266 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    width: 1200px;
+    text-align:center;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+img{
+    max-width: 100%;
+    height: auto;    
+}
+
+/* ボタン表示 */
+.btn{
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 15px 0px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color: #fff;
+}
+
+/* タイトルの形 */
+.entitle-form{
+    font-size: 24px;
+    margin: 60px 0px 30px;
+    font-weight: bold;
+}
+
+.jptitle-form{
+    font-size:18px;
+    margin: 0px 0px 60px 0px;
+    font-weight: bold;
+}
+
+/* タイトルの黄色フォント */
+.yellow-font{
+    color: #ffd61a;
+}
+
+/* headerの加工 */
+header{
+    width: 1200px;
+    padding:30px 50px 10px;
+    background-color: #fff;
+    position:fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-top: 150px;
+    padding: 160px 0px 160px 0px;
+    background-image: url(../img/mainbg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    color: #fff;
+    font-size: 32px;
+    padding:30px 0px 30px 0px
+}
+
+.title h2{
+    color: #fff;
+    font-size: 28px;
+}
+
+.pcnav{
+    margin:0 0 0 auto;
+}
+
+.pcnav ul{
+    display: flex;
+    margin:50 50 50 50;
+    font: size 21px;
+}
+
+div.image ul{
+    display: flex;
+}
+
+.about_write{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about_write2{
+    padding-bottom: 40px;
+}
+
+.about_write3{
+    padding-bottom: 80px;
+}
+
+/* コース説明 */
+
+.course_word{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 120px 0px 40px 50px;
+    text-align: left;
+}
+
+.course_exp{
+    padding: 0px 0px 120px 50px;
+    text-align: left;    
+}
+.letter{
+    padding-bottom: 60px;
+}
+
+.course_1{
+    display: flex;
+    align-items: center;
+}
+
+#countainer{
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 600px 600px 
+}
+
+#itemA{
+    grid-row: 1/2;
+    grid-column: 1/2 
+
+}
+
+#itemB{
+    width: 480px;
+    grid-row: 1/2;
+    grid-column: 2/3 
+
+}
+
+#itemC{
+    width: 480px;
+    grid-row: 2/3;
+    grid-column: 1/2 
+
+}
+
+#itemD{
+    grid-row: 2/3;
+    grid-column: 2/3 
+
+}
+
+#itemE{
+    grid-row: 3/4;
+    grid-column: 1/2 
+
+}
+
+#itemF{
+    width: 480px;
+    grid-row: 3/4;
+    grid-column: 2/3 
+
+}
+
+/* ニュースについて */
+.news_img ul{
+    display: flex;
+    list-style: none;
+    margin:auto;
+    text-align: left;
+    padding-right: 30px;
+}
+.news_word{
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.news_word2{
+    padding-bottom: 60px;
+}
+
+
+/* accessについて */
+#access{
+    background-color: #fafafa;
+    margin: 60px 0px 60px 0px;
+    align-items: center;
+}
+
+.access2{
+    width: 408px;
+    margin: auto;
+    padding-top: 60px;    
+}
+
+.access3{
+    display: flex;
+    flex-wrap: wrap;
+    width:408px;
+    margin:0 0 40px;
+    font-size: 16px;
+    
+}
+
+.access-title{
+    width: 98px;
+    padding: 0 0 24px 0;
+    margin: 0 0 0 20px;
+    font-weight: normal;
+    text-align: left;
+
+}
+
+.access-item{
+    width: 290px;
+    padding: 0 0 24px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+.map1{
+    height: 453px;
+    width: 1200px;
+    padding: 0px;
+}
+
+/* コンタクト */
+.form-all{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 180px 30px 180px;
+}
+
+.form-title{
+    width: 145px;
+    padding:8px 64px 8px 16px;
+    font-weight: normal;
+    text-align: left;
+    border:2px #bfbfbf;
+    border-style: solid solid none none;
+}
+
+.form-item{
+    width: 390px;
+    padding:8px 0px 8px 8px;
+    text-align: left;
+    border:2px #bfbfbf;
+    border-style: solid none none none;
+}
+
+
+/* フッター */
+footer{
+    padding: 30px 30px;
+    background-color: #707070;
+    margin-top: 140px;
+}
